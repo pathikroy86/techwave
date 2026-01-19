@@ -1,0 +1,19 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.btn-bg {
+    background: linear-gradient(to right, #F7E93F 0%, #F9797A 51%, #FB09B4 51%, #9100F8 100%);
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.bg-image {
+    background-image: url(/assets/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-microphone {
+    background-image: url(/assets/hero-circle.png);
+}

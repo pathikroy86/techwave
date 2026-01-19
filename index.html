@@ -5,10 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TECHWAVE</title>
+    <link rel="shortcut icon" href="./assets/microphone-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+    <!--Tailwind Connect with CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!--Fontawesome Kit-->
+    <script src="https://kit.fontawesome.com/bbfa251da8.js" crossorigin="anonymous"></script>
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-
+    <header class="bg-[#412567]">
+        <nav class="w-5/6 mx-auto flex justify-between items-center py-5">
+            <div class="text-2xl"><span class="text-white">Tech</span><span class="text-[#FB09B4]">Wave</span></div>
+            <div class="flex gap-4 text-white font-medium">
+                <p><a href="">About</a></p>
+                <p><a href="">Episodes</a></p>
+                <p><a href="">Host</a></p>
+            </div>
+            <div class="text-white"><button class="btn-bg">Subscribe<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </nav>
+        <section class="bg-image py-20">
+            <div class="bg-microphone bg-center bg-contain bg-no-repeat flex justify-center mb-8">
+                <figure>
+                    <img class="px-2 py-6" src="assets/microphone.png" alt="">
+                </figure>
+            </div>
+            <div class="flex flex-col items-center">
+                <h1 class="text-white text-6xl font-extrabold mb-5">TechWave</h1>
+                <p class="text-white mb-5">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                <div class="flex gap-5">
+                    <button class="btn-bg text-white"><i class="fa-brands fa-spotify"></i>Listen on Spotify</button>
+                    <button class="px-8 text-[#00FF88] border border-[#00FF88] rounded-2xl"><i
+                            class="fa-regular fa-envelope"></i>Subscribe</button>
+                </div>
+            </div>
+        </section>
+    </header>
 </body>
 
 </html>
