@@ -18,3 +18,10 @@ body {
 .bg-microphone {
     background-image: url(/assets/hero-circle.png);
 }
+
+.footer-bg {
+    background-image: url(/assets/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
