@@ -33,7 +33,7 @@ body {
 }
 
 .footer-bg {
-    background-image: url(/assets/footer-bg.png);
+    background-image: url(./assets/footer-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -41,10 +41,10 @@ body {
 
 @media only screen and (max-width:640px) {
     .bg-image {
-        background-image: url(/assets/smallDeviceHeroBG.png);
+        background-image: url(./assets/smallDeviceHeroBG.png);
     }
 
     .footer-bg-small {
-        background-image: url(/assets/smallDeviceFooterBg.png);
+        background-image: url(./assets/smallDeviceFooterBg.png);
     }
 }
