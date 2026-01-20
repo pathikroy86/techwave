@@ -16,7 +16,20 @@ body {
 }
 
 .bg-microphone {
-    background-image: url(/assets/hero-circle.png);
+    animation-name: myAnimation;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myAnimation {
+    from {
+        background-image: url(/assets/hero-circle.png);
+    }
+
+    to {
+        background-image: url(/assets/realistic-golden-frame.png);
+    }
 }
 
 .footer-bg {
