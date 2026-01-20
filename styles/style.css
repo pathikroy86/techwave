@@ -9,7 +9,7 @@ body {
 }
 
 .bg-image {
-    background-image: url(/assets/hero-bg.png);
+    background-image: url(./assets/hero-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -24,11 +24,11 @@ body {
 
 @keyframes myAnimation {
     from {
-        background-image: url(/assets/hero-circle.png);
+        background-image: url(./assets/hero-circle.png);
     }
 
     to {
-        background-image: url(/assets/realistic-golden-frame.png);
+        background-image: url(./assets/realistic-golden-frame.png);
     }
 }
 
