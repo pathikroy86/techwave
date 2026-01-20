@@ -38,3 +38,13 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+@media only screen and (max-width:640px) {
+    .bg-image {
+        background-image: url(/assets/smallDeviceHeroBG.png);
+    }
+
+    .footer-bg-small {
+        background-image: url(/assets/smallDeviceFooterBg.png);
+    }
+}
